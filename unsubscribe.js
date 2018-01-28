@@ -1,4 +1,10 @@
-// FORM JS
+
+var hashParams = window.location.hash.substr(1).split('&'); // substr(1) to remove the `#`
+for(var i = 0; i < hashParams.length; i++){
+    var p = hashParams[i].split('=');
+    document.getElementById(p[0]).value = decodeURIComponent(p[1]);;
+}
+
 
 $('#unsub-form').on('submit',function(){
 
@@ -20,5 +26,3 @@ $('#unsub-form').on('submit',function(){
   document.getElementById('unsubp').style.display = "none";
   document.getElementById('unsub-form').style.display = "none";
 });
-
-// FORM JS END
