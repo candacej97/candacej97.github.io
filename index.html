@@ -1,69 +1,129 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../assets/img/favicon.ico">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <!-- TODO: FAVICON -->
+  <link rel="shortcut icon" href="#">
+  <title>Candace Johnson</title>
 
-    <!-- Needed to make sure Google Translate Pop-Up doesn't show -->
-    <meta name="google" value="notranslate">
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
 
-    <title>Unsubscribe</title>
+<body>
+  <nav class="dark-mode lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="./" class="brand-logo">Candace Johnson</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="./">Home</a></li>
+        <li><a href="about-me">About Me</a></li>
+        <li><a href="projects">Projects</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="contact-me">Contact Me</a></li>
+      </ul>
 
-    <!-- Bootstrap core CSS -->
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="./">Home</a></li>
+        <li><a href="about-me">About Me</a></li>
+        <li><a href="projects">Projects</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="contact-me">Contact Me</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!-- <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center dark-mode-text">Candace Johnson</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">Ideator, Front-End & Software Developer</h5>
+        <br><br>
+      </div>
+    </div>
+  </div>
 
-    <!-- Custom styles for this page -->
-    <link href="../assets/css/index.css" rel="stylesheet">
+  <div class="container">
+    <div class="section">
+      <!-- NOTE: Short bio about myself. Not much about professional things, unless its about technologies I've used. I will put the resume section below this with a link to download the pdf. -->
+      <!-- IDEA: scrap the about-me page for an about-me section on this page -->
+    </div>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+    <div class="section">
 
-  <body>
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
 
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
 
-    <!-- Begin page content -->
-    <div class="container" style="top: 100px;">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
 
-      <div class="" style="padding:10% 17%;line-height:50px;position:relative;">
-        <div class="page-header" style="text-align:center;">
-          <span class="cc">
-            <h2 id="unsub-header">WE'RE SAD TO SEE YOU GO</h2>
-            <p id="unsubp">Enter your email address below to unsubscribe from all STIT updates.</p>
-            <form class="hide-submit" id="unsub-form" action="" method="post" target="no-target">
-              <input id="email" type="email" name="email" placeholder="Email" value required>
-              <input class="submit" type="submit" value="UNSUBSCRIBE">
-            </form>
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
 
-            <h1 id="confirmation" class="lead" style="padding-top:2%;display:none;">You will no longer be updated on the latest news coming from our team.</h1>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
 
-            <!-- to not have the google forms confirmation page pop up -->
-            <iframe src="#" id="no-target" name="no-target" style="visibility:hidden;display:none;"></iframe>
-          </span>
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
         </div>
       </div>
 
     </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer dark-mode">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Navigate Around</h5>
+          <ul>
+            <li><a class="white-text" href="./">Home</a></li>
+            <li><a class="white-text" href="about-me">About Me</a></li>
+            <li><a class="white-text" href="projects">Projects</a></li>
+            <li><a class="white-text" href="#">Blog</a></li>
+            <li><a class="white-text" href="contact-me">Contact Me</a></li>
+          </ul>
+        </div>
+        <div class="col l6 s12" id="footer-content-right">
+          <h5 class="white-text">Connect with Me</h5>
+          <ul>
+            <li><a class="white-text" href="#!">LinkedIn</a></li>
+            <li><a class="white-text" href="#!">Github</a></li>
+            <li><a class="white-text" href="#!">Blog</a></li>
+            <li><a class="white-text" href="contact-me">Email Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Basic template by <a class="grey-text text-lighten-3" href="http://materializecss.com">Materialize</a> <br> Customizations by Candace Johnson
+      </div>
+    </div>
+  </footer>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="unsubscribe.js"></script>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
   </body>
 </html>
