@@ -13,7 +13,7 @@
       age = age - 1;
     }
 
-    $('#age').innerHTML = age;
+    document.getElementById('age').innerHTML = age;
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
