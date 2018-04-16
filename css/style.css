@@ -30,3 +30,7 @@ a:hover {
 #footer-content-right {
   text-align: right;
 }
+
+a#age, a#age:hover {
+  color: var(--custom-dark-3); 
+}

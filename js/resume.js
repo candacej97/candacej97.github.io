@@ -43,4 +43,4 @@ var resumeInfo = {
 };
 
 var jsonStr = JSON.stringify(resumeInfo);
-document.getElementById('resume').innerHTML = jsonStr;
+// document.getElementById('resume').innerHTML = jsonStr;
