@@ -32,5 +32,5 @@ a:hover {
 }
 
 a#age, a#age:hover {
-  color: var(--custom-dark-3); 
+  color: var(--custom-dark-3) !important; 
 }

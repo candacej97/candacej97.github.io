@@ -14,6 +14,7 @@
     }
 
     document.getElementById('age').innerHTML = age;
+    console.log(age);
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
