@@ -9,7 +9,8 @@
     var day = d.getDate();
     var age = year - 1997;
 
-    if (month <= 3) {
+    if (month <= 2) {
+      //months 0-11
       age = age - 1;
     }
 
