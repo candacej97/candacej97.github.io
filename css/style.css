@@ -27,10 +27,31 @@ a:hover {
   color: var(--custom-dark-3);
 }
 
-#footer-content-right {
-  text-align: right;
+a#age, a#age:hover {
+  color: var(--custom-dark-3) !important;
 }
 
-a#age, a#age:hover {
-  color: var(--custom-dark-3) !important; 
+.fmenu > ul {
+  width: 100%;
+  padding: 0 30%;
+}
+
+.fmenu > ul > li {
+  float: left;
+}
+
+.fmenu > ul > li > a {
+  padding: 0 15px;
+}
+
+a > i {
+  color: white;
+}
+
+a > i:hover {
+  color: var(--custom-light-2);
+}
+
+.footer-copyright {
+  text-align: center;
 }
