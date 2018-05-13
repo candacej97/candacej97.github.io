@@ -69,7 +69,7 @@
 
     <div class="section">
       <div class="row">
-        <form class="col s12">
+        <form class="col s12" id="contact-form" method="post" target="no-target">
           <div class="row">
             <div class="input-field col s6">
               <input placeholder="First Name" id="first_name" type="text" class="validate">
@@ -94,7 +94,7 @@
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <textarea placeholder="Message" id="textarea1" class="materialize-textarea"></textarea>
+              <textarea placeholder="Message" id="textarea1" class="materialize-textarea validate"></textarea>
               <!-- <label for="textarea1">Textarea</label> -->
             </div>
           </div>
@@ -103,6 +103,11 @@
             <i class="material-icons right">send</i>
           </button>
         </form>
+
+        <p id="confirmation" class="lead" style="padding-top:2%;display:none;">Thank you! Your message has been received. <br> <br> To submit another form, <a href="../contact" style="color:purple;">click here</a>.</p>
+
+        <!-- to not have the google forms confirmation page pop up -->
+        <iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
       </div>
     </div>
 
@@ -171,6 +176,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="../js/materialize.js"></script>
   <script src="../js/init.js"></script>
+  <script src="../js/contact-form.js"></script>
 
   </body>
 </html>
