@@ -14,7 +14,7 @@
       age = age - 1;
     }
 
-    document.getElementById('age').innerHTML = age;
+    $('#age').innerHTML = age;
     console.log(age);
 
   }); // end of document ready
