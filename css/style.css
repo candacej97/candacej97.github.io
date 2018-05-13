@@ -20,6 +20,15 @@ a:hover {
 	font-size: inherit;
 }
 
+@font-face {
+  font-family: "Playlist Script";
+  src: url("../fonts/Playlist Script.otf");
+}
+
+#logo-container {
+  font-family: "Playlist Script";
+}
+
 .dark-mode {
   background-color: var(--custom-dark-1);
 }
@@ -30,19 +39,6 @@ a:hover {
 a#age, a#age:hover {
   color: var(--custom-dark-3) !important;
 }
-
-/* .fmenu > ul {
-  width: 100%;
-  padding: 0 30%;
-}
-
-.fmenu > ul > li {
-  float: left;
-}
-
-.fmenu > ul > li > a {
-  padding: 0 15px;
-} */
 
 .fmenu {
   text-align: center;
