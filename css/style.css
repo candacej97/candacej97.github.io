@@ -21,12 +21,12 @@ a:hover {
 }
 
 @font-face {
-  font-family: "Playlist Script";
+  font-family: "Playlist";
   src: url("../fonts/Playlist Script.otf");
 }
 
 #logo-container {
-  font-family: "Playlist Script";
+  font-family: "Playlist";
 }
 
 .dark-mode {
