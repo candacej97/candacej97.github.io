@@ -14,9 +14,10 @@
       age = age - 1;
     }
 
-    document.getElementById('age').innerHTML = age;
-    //$('#age').html(age);
-    console.log(age);
+    if (document.getElementById('age')) {
+      document.getElementById('age').innerHTML = age;
+      console.log(age);
+    }
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
