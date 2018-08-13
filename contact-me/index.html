@@ -69,15 +69,16 @@
 
     <div class="section">
       <div class="row">
+        <!-- to not have the google forms confirmation page pop up -->
+        <iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
+
         <form class="col s12" id="contact-form" method="post">
           <div class="row">
             <div class="input-field col s6">
               <input placeholder="First Name" id="first_name" type="text" class="validate">
-              <!-- <label for="first_name">First Name</label> -->
             </div>
             <div class="input-field col s6">
               <input placeholder="Last Name" id="last_name" type="text" class="validate">
-              <!-- <label for="last_name">Last Name</label> -->
             </div>
           </div>
           <div class="row">
@@ -103,8 +104,6 @@
 
         <h4 id="confirmation" class="lead" style="padding-top:2%;display:none;text-align: center;">Thank you! <br> Your message has been received. <br> <br> To send another message, <a href="./">click here</a>.</h4>
 
-        <!-- to not have the google forms confirmation page pop up -->
-        <iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
       </div>
     </div>
 
