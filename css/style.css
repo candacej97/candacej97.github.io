@@ -9,6 +9,20 @@
   --custom-light-2: #85D0BC;
 }
 
+/* ~~~~~ For Sticky Footer ~~~~~ */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+body div.container {
+  flex: 1 0 auto;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 a:hover {
   color: var(--custom-light-2) !important;
 }
@@ -27,6 +41,7 @@ a:hover {
 
 #logo-container {
   font-family: "Playlist";
+  font-size: 2rem;
 }
 
 .dark-mode {
@@ -43,7 +58,6 @@ a#age, a#age:hover {
 .fmenu {
   text-align: center;
 }
-
 
 a > i {
   color: white;
