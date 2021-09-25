@@ -30,8 +30,6 @@
     <title>Candace Johnson</title>
 
     <!-- CSS  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
@@ -41,21 +39,42 @@
 
 <body>
 
-    <main>
+    <div class="container">
+        <main class="personal-info row p-5">
 
-        <h1>Candace Johnson</h1>
+            <section class="text col-sm-8">
+                <h1>Candace Johnson</h1>
 
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren.</p>    
+            </section>
 
-        <figure>
-            <img src="#" alt="Image of Candace Johnson">
-        </figure>
+            <section class="image col-sm-4"> 
+                <figure>
+                    <img class="profile-pic" src="_assets/imgs/profile-photo.png" alt="Image of Candace Johnson">
+                </figure>
+            </section>
 
-        <section>
-            <!-- languages I use often -->
-        </section>
+            <section class="stack row languages">
+                <!-- languages I use often todo: change colors -->
+                <div class="col">
+                    <img class="html" src="_assets/imgs/icons/html5@2x.png" alt="HTML5 icon">
+                </div>
+                <div class="col">
+                    <img class="css" src="_assets/imgs/icons/css3-alt@2x.png" alt="CSS3 icon">
+                </div>
+                <div class="col">
+                    <img class="node-js" src="_assets/imgs/icons/node-js@2x.png" alt="Node.js icon">
+                </div>
+                <div class="col">
+                    <img class="react" src="_assets/imgs/icons/react@2x.png" alt="React.js icon">
+                </div>
+                <div class="col">
+                    <img class="vue" src="_assets/imgs/icons/vuejs@2x.png" alt="Vue.js icon">
+                </div>
+            </section>
 
-    </main>
+        </main>
+    </div>
 
     <section>
         <ul>
@@ -114,7 +133,7 @@
     </footer>
 
 
-    <!--  Scripts-->
+    <!-- scripts -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
