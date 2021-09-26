@@ -13,6 +13,7 @@
 
 body {
   min-height: 100vh;
+  background: linear-gradient(225deg, rgba(61,162,53,1) 0%, rgba(200,226,198,1) 40%, rgba(225,234,227,1) 100%);
 }
 
 main{margin: 3rem;}
