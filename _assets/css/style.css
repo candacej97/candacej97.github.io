@@ -4,16 +4,13 @@
 
 /* NOTE: Custom Colors */
 :root {
-  --custom-dark-1: #116353;
-  --custom-dark-2: #16454B;
-  --custom-dark-3: #022B2D;
-  --custom-light-1: #61AF93;
-  --custom-light-2: #85D0BC;
+  --custom-black: #2E2E2E;
 }
 
 body {
   min-height: 100vh;
   background: linear-gradient(225deg, rgba(61,162,53,1) 0%, rgba(200,226,198,1) 40%, rgba(225,234,227,1) 100%);
+  color: var(--custom-black);
 }
 
 main{margin: 3rem;}
@@ -37,28 +34,16 @@ ul, li {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-  color: unset;
-}
-
 a:hover {
-  color: var(--custom-light-2) !important;
+  /* color: var(--custom-light-2) !important; */
 }
 
 .dark-mode {
-  background-color: var(--custom-dark-1);
-}
-.dark-mode-text {
-  color: var(--custom-dark-3);
+  background-color: #116353;
 }
 
 a > i {
   color: white;
-}
-
-a > i:hover {
-  color: var(--custom-light-2);
 }
 
 .footer-copyright {
@@ -81,6 +66,29 @@ img {
 
 .languages .col {
   align-self: center;
+}
+
+.project-nav {
+  text-align: center;
+}
+
+.project-nav button {
+  text-decoration: none;
+  color: unset;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
+
+.project-nav button:hover {
+  border: .1rem solid var(--custom-black);
+  color: unset;
+}
+
+.project-nav button.active, .project-nav button.active:hover {
+  border: 0; /* needed for when the user hovers over an active button, to keep the style the same on hover */
+  border-bottom: .15rem solid var(--custom-black);
+  border-radius: 0;
+  color: unset;
 }
 
 footer {
